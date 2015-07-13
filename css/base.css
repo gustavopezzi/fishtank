@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000;
+    overflow: hidden;
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    margin-left: -700px;
+    top: 50%;
+    margin-top: -300px;
+    height: 600px;
+    width: 1400px;
+}
+
+#fishbitmap {
+    display: none;
+}
